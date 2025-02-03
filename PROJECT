@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>nhyi's page</title>
+        <style>
+h1{
+color:blue
+}
+h2{
+color:green
+}
+       </style>
+   </head>
+     <body>
+       <h1>Moi meme</h1>
+       <h2> NHYIRA FASHOLA 21122738</h2>
+        <p> I am a computer engineering student in level 100 at KNUST </p>
+        <p> The main reason i chose to pursure computer engineering is my love for robots and manual labour</p>
+    </body>
+</html>
