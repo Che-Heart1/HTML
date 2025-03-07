@@ -1,14 +1,13 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #15a2df; /* Light background for better visibility */
+    background: #15a2df;
     color: #333;
 }
 
-/* Unique Header with Red-White-Blue */
+
 header {
     background: linear-gradient(90deg, red, blue);
     color: white;
@@ -19,7 +18,7 @@ header {
     border-bottom-right-radius: 50% 30px;
 }
 
-/* Navigation Bar */
+
 nav {
     background: #222;
     padding: 10px;
@@ -49,7 +48,7 @@ nav ul li a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
-/* Content Sections - Now more visible */
+
 .content {
     max-width: 600px;
     margin: 30px auto;
@@ -60,7 +59,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds visibility */
 }
 
-/* Profile Picture */
+
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -70,7 +69,7 @@ nav ul li a:hover {
     margin: 10px auto;
 }
 
-/* Footer */
+
 footer {
     background: #222;
     padding: 15px;
