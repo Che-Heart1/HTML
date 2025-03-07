@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #15a2df; /* Light background for better visibility */
+    color: #333;
+}
+
+/* Unique Header with Red-White-Blue */
+header {
+    background: linear-gradient(90deg, red, blue);
+    color: white;
+    padding: 40px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom-left-radius: 50% 30px;
+    border-bottom-right-radius: 50% 30px;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Content Sections - Now more visible */
+.content {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white; /* White background for easy reading */
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds visibility */
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+}
